@@ -130,3 +130,17 @@ body {
     background-color: #252d4a;
     
 }
+
+/* ========== MEDIA QUERIES ========== */
+@media screen and (max-width: 600px) {
+
+  .app_ {
+    margin-left: 5%;
+    width: 80%;
+  }
+
+  .answered {
+    width: 50%;
+    margin-left: 20%;
+  }
+}

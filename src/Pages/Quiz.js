@@ -135,7 +135,8 @@ function Quiz() {
                 </div>
 
             ) : (
-                <>
+					<>
+					<div>
                     <div className='question-section'>
                         <div className='question-count'>
                             <span>Question {currentQuestion + 1}</span>/{questions.length}
@@ -147,6 +148,7 @@ function Quiz() {
                             <button className="answer_" onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
                         ))}
                     </div>
+							</div>
                 </>
             )}
             

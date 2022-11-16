@@ -3,7 +3,12 @@
   background-color: whitesmoke;
   color: rgb(5, 14, 100);
   font-size: 20px;
+  width: 100%;
 }
+
+/* img {
+  width:50%;
+} */
 
 .App-logo {
   height: 40vmin;
@@ -58,4 +63,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* ========== MEDIA QUERIES ========== */
+@media screen and (max-width: 600px) {
+
+  /* body {
+    overflow-x: hidden;
+  } */
+  
+  img {
+    width: 50%;
+    /* display: flex; */
+
+  }
+
+  p {
+    /* padding: 5px; */
+    width: 50%;
+    margin-left: 40px;
+    text-align: justify;
+    /* margin-left: auto; */
+  }
+  .start {
+    width: 40%;
+    margin-right: 20px;
+    /* justify-content: left; */
+    /* text-align: left; */
+  }
+
+  /* .content {
+
+  } */
 }

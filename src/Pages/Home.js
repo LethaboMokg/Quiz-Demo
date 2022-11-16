@@ -12,7 +12,7 @@ function Home (){
   return(
     <div className="App">
     
-        <img src={require('./images/2.png')} width={800} />
+        <img src={require('./images/2.png')}  />
     
       <p><b>Financial success</b> is within your control </p>
       <p>Our financial advisers provide you with sound financial advice you can trust to help you on your personal journey and to make informed decisions about your money - so you can achieve your dreams and goals. Whether you’re moving up the corporate ladder or planning your retirement, Momentum’s certified financial planners can help you get there.</p>
