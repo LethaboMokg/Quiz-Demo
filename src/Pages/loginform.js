@@ -42,6 +42,7 @@ function GoToNext() {
 
         e.preventDefault()
 
+        
         configureCaptcha()
         // const phoneNumber = "+27" + this.state.mobile
         const phoneNumber = "+27" + formInfo['mobile']

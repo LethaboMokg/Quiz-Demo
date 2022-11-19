@@ -22,6 +22,7 @@ function Home (){
         <p>1. Select only one of the available options.</p>
         <p>2. This quiz is based on the financial succcess.</p>
         <p>3. Answer all questions.</p>
+
       </div>
 
       <button className='start' id='submit' onClick={() => {setGoToQuiz(true);}} type='button'>Start financial quiz</button>
