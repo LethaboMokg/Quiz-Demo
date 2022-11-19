@@ -21,7 +21,7 @@ body {
   height: 100vh;
   padding: 50px;
   font-family: sans-serif;
-  overflow: hidden;
+  /* overflow: hidden; */
   margin: 0;
 
 }

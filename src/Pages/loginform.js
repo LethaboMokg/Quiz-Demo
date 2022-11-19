@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { getAuth } from "firebase/auth";
 import { RecaptchaVerifier } from "firebase/auth";
 import { signInWithPhoneNumber } from "firebase/auth";
 import { Navigate} from "react-router-dom";
-import firebase from './firebase'
+import { app } from "./initialize.js";
 
 function GoToNext() {
 
@@ -36,7 +36,7 @@ function GoToNext() {
                 console.log('Recaptcha varified')
             },
             defaultCountry: "IN"
-        }, getAuth());
+        }, getAuth(app));
     }
     function onSignInSubmit (e) {
 
@@ -49,7 +49,7 @@ function GoToNext() {
 
         console.log(phoneNumber)
         const appVerifier = window.recaptchaVerifier;
-        const auth = getAuth();
+        const auth = getAuth(app);
         signInWithPhoneNumber(auth, phoneNumber, appVerifier)
             .then((confirmationResult) => {
                 // SMS sent. Prompt user to type the code from the message, then sign the

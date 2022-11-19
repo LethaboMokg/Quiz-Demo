@@ -1,9 +1,7 @@
 import "./Quiz.css"
 import React, { useEffect, useState } from 'react';
-import { useNavigate } from "react-router-dom"
 import { getAuth } from "firebase/auth";
-import { getDatabase, ref, set, get, child, DataSnapshot } from "firebase/database";
-import usePromise from "react-promise";
+import { getDatabase, ref, set, get, child} from "firebase/database";
 
 
 let form = {}
@@ -60,7 +58,7 @@ function Quiz() {
 	const dbRef = ref(getDatabase())
 
 
-	const [error, setError] = useState(false)
+	const [setError] = useState(false)
 	const [state, setState] = useState('');
 	const [score, setScore] = useState('');
 
@@ -81,7 +79,7 @@ function Quiz() {
 				setState('error');
 				setError(err);
 			})
-	}, []);
+	}, []); // eslint-disable-next-line
 
 
 	if (state === "error") {
