@@ -109,6 +109,78 @@ function Quiz() {
 
 				},
 
+				{
+					question: "What do we call the things that we own?",
+					a: "Assets",
+					b: "Budget",
+					c: "Having a financial plan",
+					d: "Investments",
+					correct: "a",
+				},
+		
+				{
+					question: "How do we ensure our money works for us?",
+					a: "Buying gold",
+					b: "Budget",
+					c: "Having a financial plan",
+					d: "Having investments",
+					correct: "c",
+				},
+		
+				{
+					question: "What do we call the individual who advises clients on the best way to make money moves?",
+					a: "An investment banker",
+					b: "An insurance agent",
+					c: "An investment advisor",
+					d: "A financial advisor",
+					correct: "d",
+				},
+		
+				{
+					question: "What's a detailed plan of income and expenses expected over a certain period of time?",
+					a: "A budget",
+					b: "A financial plan",
+					c: "A Taxonomy",
+					d: "Investments",
+					correct: "a",
+				},
+		
+				{
+					question: "Who analyzes client's overall financial situations?",
+					a: "An insurance Agent",
+					b: "A budget Analyst",
+					c: "A wealth Manager",
+					d: "A Financial Planner",
+					correct: "b",
+				},
+		
+				{
+					question: "The financial planning process consist of ___ steps",
+					a: "1",
+					b: "4",
+					c: "6",
+					d: "7",
+					correct: "4",
+				},
+		
+				{
+					question: "What do we call a list of assets and liabilities of a specific point of time?",
+					a: "Balance Sheet",
+					b: "Cash Flow",
+					c: "CPJ/CRJ",
+					d: "Petty Cash",
+					correct: "c",
+				},
+		
+				{
+					question: "Where do financial advisers store data?",
+					a: "Word",
+					b: "Database",
+					c: "Excel",
+					d: "PowerPoint",
+					correct: "c",
+				},
+		
 
 			];
 
